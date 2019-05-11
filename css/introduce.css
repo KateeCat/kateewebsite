@@ -1,0 +1,154 @@
+/*简历代码*/
+.content_right {
+	height: 1050px;
+}
+.content_right .introduce {
+	width: 730px;
+	height: 1000px;
+	background-color: #f6f6f6;
+	margin-top: 20px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.title {
+	color: #7684c8;
+	position:relative;
+	padding-top: 35px;
+	margin-left: 30px;
+	font:500 20px "microsoft YaHei";
+	margin-bottom: 17px;
+}
+
+.timeline {
+	border-left: 2px solid #bfbfbf;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	position: relative;
+	padding: 0 30px;
+	margin-left: 30px;
+	padding-bottom: 25px;
+}
+.timeline .item {
+	position: relative;
+	margin-bottom: 25px;
+}
+.timeline .item:last-child {
+    margin-bottom: 0;
+ }
+.timeline .item:before {
+    content: "";
+    position: absolute;
+    left: -38.5px;
+    top: 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #f6f6f6;
+    border: 3px solid #bfbfbf;
+}
+
+.timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #8a8a8a;
+}
+
+.timeline .job {
+	position: relative;
+	font-size: 14px;
+	/*color: #bfbfbf;*/
+	margin-bottom: 12px;
+	height: 45px;
+
+}
+.timeline .job-title {
+	font-size: 18px;
+	/*color: #bfbfbf;*/
+	font-weight: 600;
+	position: absolute;
+}
+.t1 {
+	left:0;
+	bottom: 0;
+}
+.t2 {
+	left: 290px;
+	bottom: 0;
+}
+.t3 {
+	left: 480px;
+	bottom: 0;
+}
+.timeline .job-time {
+	 color: #808080;
+	 padding-top: 0px;
+	 padding-bottom: 15px;
+	 font-size: 16px;
+}
+.timeline .job-desc {
+	color: #666;
+	line-height: 1.8;
+}
+.timeline ul li {
+	list-style-type: disc;
+	line-height: 24px;
+	font-size: 16px;
+	color:#808080;
+}
+
+.skill {
+	line-height: 24px;
+	font-size: 16px;
+	color:#808080;
+	margin-bottom: 25px;
+}
+
+.skill ul {
+	margin-left: 30px;
+	padding:10px 15px;
+	width: 550px;
+	height: 130px;
+	border:1px solid #808080;
+	/*box-shadow: 1px  1px #808080;*/
+}
+
+.skill ul li {
+	line-height: 24px;
+}
+
+.reward {
+	position: relative;
+	height: 66px;
+	width: 390px;
+	margin-left: 30px;
+	border:1px solid #808080;
+}
+.reward .reward-left {
+	float: left;
+	width: 66px;
+	height: 66px;
+	background-color:#808080;
+	color: #fff;
+	font-size: 20px;
+	line-height: 66px;
+	text-align: center;
+	opacity: 0.6;
+}
+.reward .reward-right {
+	padding-left: 15px;
+	float: left;
+	height: 66px;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 10px 5px;
+}

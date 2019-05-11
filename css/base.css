@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;			/*合并外边线*/
+}
+
+.font {
+    font: 700 14px/22px "Microsoft Yahei";
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
+    color: #666;
+    background: #fff
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+a,li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: url(../images/bj.jpg);
+}
+
+.contain {
+    position: relative;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    border: hidden;
+}
+.top {
+    height: 300px;
+    width: 100%;
+    background: url(../images/top.jpg);
+    position: relative;
+}
+.top .top-words {
+    font:700 12px "Microsoft YaHei";
+    color: #878380;
+    position: absolute;
+    left: 45px;
+    bottom: 135px;
+}
+
+.nav {
+    width: 100%;
+    height: 56px;
+    background: url(../images/nav.jpg);
+    position: absolute;
+    left: 0;
+    top: 254px;
+}
+.nav ul {
+    /*margin-left:25px;*/
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    display: inline-block;
+    margin-left:20px;
+    width: 104px;
+    height: 54px;
+    color: #fff;
+    font:600 16px/50px "Microsoft YaHei";
+    text-align: center;
+}
+
+.nav ul li a:hover {
+    color: #f4dfd8;
+    border-bottom: 2px solid #fff;
+}
+
+.w {
+    width: 980px;
+}
+.content {
+    background-color:#e5e3da;
+    display: flex;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    align-items: stretch;
+}
+.content_left {
+    width: 202px;
+    height: 960px;
+    float: left;
+    background-color:#e5e3da;
+    padding-top: 20px;
+}
+.content_left .content_left_top_image {
+    margin-top: 20px;
+    padding-left: 25px;
+    border-radius: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+.content_left .content_left_top span {
+    display: block;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 25px;
+    color: #605448;
+    font: 700 13px "Microsoft YaHei";
+}
+
+.content_left_bottom {
+    width: 100%;
+    margin-top:26px;
+    padding-left: 25px;
+}
+.content_left_bottom .educate_f {
+    width: 100%;
+}
+.content_left_bottom .educate_f .box {
+    width: 163px;
+    height: 29px;
+    background-color:#a9947f;
+    color: #fff;
+    font:600 14px/29px "Microsoft YaHei";
+    text-align: center;
+}
+.content_left_bottom .educate_f .text  {
+    padding-top: 18px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.content_left_bottom .educate_f .text .t1 {
+    display: block;
+    height: 27px;
+    font: 700 9px/27px "Microsoft YaHei";
+}
+.content_left_bottom .educate_f .text .t2 {
+    display: block;
+    height: 27px;
+    font: 700 12px/27px "Microsoft YaHei";
+}
+.content_left_bottom .educate_f .text .t3 {
+    display: block;
+    height: 21px;
+    font: 700 12px/21px "Microsoft YaHei";
+}
+.padding_left10 {
+    padding-left: 10px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.content_right {
+    float: left;
+    width: 763px;
+    padding-top: 25px;
+    padding-left: 15px;
+    background-color:#e5e3da;
+    height:955px;
+}
+/*返回头部*/
+.up {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    background-color: red;
+    background: url(../images/up.png);
+    display: none;
+}
+
+
+.up a {
+    display: block;
+}
+
+.up .upimg .show {
+    display: block;
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+    font:600 14px/45px "Microsoft Yahei";
+    text-align: center;
+    color: #b2b2b2;
+    display: none;
+}

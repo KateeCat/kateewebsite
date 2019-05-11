@@ -1,0 +1,22 @@
+.up {
+	width: 45px;
+	height: 45px;
+	position: fixed;
+	right: 50px;
+	bottom: 20px;
+}
+
+.up a {
+	display: block;
+	background: url(../images/up.png);
+	display: none;
+}
+
+.up .upimg i {
+	display: block;
+	background-color: #fff;
+	width: 45px;
+	height: 45px;
+	font:600 14px/45px "Microsoft Yahei";
+	color: #b2b2b2;
+}

@@ -1,0 +1,65 @@
+/*相册代码*/
+.content_right {
+    float: left;
+    width: 763px;
+    padding-top: 25px;
+    padding-left: 15px;
+    background-color:#e5e3da;
+    height:100%;
+}
+.content_right_contain {
+	width: 730px;
+	height: 1130px;
+	background-color: #f2f2f2;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.content_right_contain .content_right_top {
+	width: 690px;
+	height: 45px;
+	margin:0 auto;
+	border-bottom:1px solid #d9c7af;
+	line-height: 25px;
+	position: relative;
+}
+.f_left {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.f_right {
+	position: absolute;
+	left: 595px;
+	bottom: 0px;
+}
+
+
+.content_right_contain .content_right_photo {
+	width: 690px;
+	height: 940px;
+	margin:0 auto;
+	/*background-color: red;*/
+}
+
+.content_right_contain ul {
+	width: 690px;
+	height: 940px;
+	/*background-color: yellow;*/
+}
+
+.content_right_contain ul li{
+	float: left;
+	width: 218px;
+	height: 310px;
+	margin:15px 5px;
+	/*box-shadow:1px 1px 2px;*/
+	/*background-color: green;*/
+	cursor: pointer;
+}
+.content_right_contain ul li img{
+	display: block;
+}
+.margin_left_right {
+	margin-left: 18px;
+	margin-right: 18px;
+}

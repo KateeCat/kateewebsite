@@ -1,0 +1,169 @@
+/*首页代码*/
+.content_right .record {
+	width: 740px;
+	height: 193px;
+	/*height: 233px;*/
+	background-color: #f6f6f6;
+	margin-bottom: 12px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.content_right .record-top {
+	width: 692px;
+	height: 125px;
+	margin:16px auto;
+	border-bottom:1px solid #e6dac9;
+	position: relative;
+}
+.content_right .icon {
+	width: 54px;
+	height: 55px;
+	padding-top: 15px;
+	border-radius: 50%;
+}
+.content_right .i1{
+	position: absolute;
+	top: 25px;
+	left: 62px;
+	font: 700 11px/22px "Microsoft Yahei";
+	color: #212121;
+}
+.content_right .i2{
+	position: absolute;
+	top: 47px;
+	left: 62px;
+	font: 600 11px/22px "Microsoft Yahei";
+	color:#a68a8c;
+}
+.content_right  .words .i3 {
+	position: absolute;
+	top: 75px;
+	left: 15px;
+	font: 600 12px/21px "Microsoft Yahei";
+	color: #212121;
+	letter-spacing: 2px;
+}
+.content_right .words .i4 {
+	position: absolute;
+	top: 96px;
+	left: 15px;
+	font: 600 12px/21px "Microsoft Yahei";
+	color: #212121;
+	letter-spacing: 2px;
+}
+.content_right .words .i5 {
+	position: absolute;
+	top: 96px;
+	left: 625px;
+	font: 600 12px/21px "Microsoft Yahei";
+	color: #c8bbaf;
+	cursor: pointer;
+}
+.content_right .record-bottom  {
+	height: 41px;
+	width: 692px;
+	margin:0 auto;
+	/*position: relative;*/
+}
+
+.content_right .record-bingo {
+	width: 692px;
+	height: 40px;
+	margin:16px auto;
+	display: none;
+	position: relative;
+}
+.content_right .record-bingo .bingo {
+	position: absolute;
+	display: inline-block;
+	left: 0px;
+	bottom: 5px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/bingo2.png") 0px 1px;
+	cursor: pointer;
+}
+
+.content_right .record-bingo span {
+	position: absolute;
+	display: inline-block;
+	left: 26px;
+	bottom: 3px;
+	color:#79a6e4;
+	font-size: 10px;
+}
+
+
+.content_right  .i6 {
+	position: absolute;
+	left: 25px;
+	bottom: 17px;
+}
+.content_right  .i7 {
+	position: absolute;
+	display: inline-block;
+	left: 617px;
+	bottom: 17px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/bingo.png") 0px 1px;
+	cursor: pointer;
+}
+
+/*图片更换*/
+.content_right  .i77 {
+	position: absolute;
+	display: inline-block;
+	left: 617px;
+	bottom: 17px;
+	width: 20px;
+	height: 20px;
+	background: url("../images/bingo2.png") 0px 1px;
+	cursor: pointer;
+}
+
+
+.content_right .i8 {
+	position: absolute;
+	display: inline-block;
+	left: 671px;
+	bottom: 16px;
+	width: 20px;
+	height: 20px;
+	/*background-color: red;*/
+	background: url("../images/bingo.png") -56px -2px no-repeat;
+	cursor: pointer;
+}
+
+.content_right .record-top2 {
+	width: 692px;
+	height: 250px;
+	margin:16px auto;
+	position: relative;
+}
+
+.content_right .record2 {
+	width: 740px;
+	height: 312px;
+	background-color: #f6f6f6;
+	margin-bottom: 12px;
+	margin-left: 10px;
+	position: relative;
+}
+.content_right .record2 .images {
+	width: 690px;
+	height: 148px;
+	/*background-color: red;*/
+	padding-top:40px;
+}
+.content_right .record2 .pic {
+	width: 225px;
+	height: 148px;
+	margin-right: 5px;
+	float: left;
+}
+.margin_top20{
+	margin-top: 20px;
+}
+
