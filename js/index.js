@@ -1,32 +1,43 @@
 
 // 点赞功能
 window.onload = function () {
-
-			var bingopic = document.getElementsByClassName("i7")[0];
-			var record = document.getElementsByClassName("record")[0];
-			var	bingobox = document.getElementsByClassName("bingo")[0];
-			var bigbox = document.getElementById("bigbox");
+// record
 			var temp = 0;
+			var num = 0;
+			var bingopicArr = document.getElementsByClassName("i7");
+			var bingopic2Arr = document.getElementsByClassName("i8");
+			for (var i=0;i<bingopicArr.length;i++){
+				bingopicArr[i].onmouseenter = function () {
+					this.className = "i77";
+				}
+				bingopicArr[i].onmouseleave = function () {
+					this.className = "i7";
+				}
+				bingopic2Arr[i].onmouseenter = function () {
+					this.className = "i88";
+				}
+				bingopic2Arr[i].onmouseleave = function () {
+					this.className = "i8";
+				}
 
-			bingopic.onmouseenter = function () {
-				bingopic.className = "i77";
 			}
-			bingopic.onmouseleave = function () {
-				bingopic.className = "i7";
-			}
-
-			bingopic.onclick = function () {
+		var bigboxArr = document.getElementsByClassName("record-bingo");
+		var recordArr = document.getElementsByClassName("record2");
+		var	bingoboxArr = document.getElementsByClassName("bingo");
+			// for(var i=0;i<bingopicArr.length;i++){
+				// bingopicArr[i].index = i;
+				bingopicArr[0].onclick = function () {
 				var oldTotal = 0;
 				var newTotal;
 				temp = temp + 1;
 				num = num+1;
 				if (temp %2 == 1) {
-					bingopic.className = "i77";
+					// this.className = "i77";
 					newTotal = oldTotal + 1;
-					record.style.height =record.offsetHeight+40+"px";
-					bigbox.style.display = "block";
+					recordArr[0].style.height =(recordArr[0].offsetHeight+40)+"px";
+					bigboxArr[0].style.display = "block";
 					var span = document.createElement("span");
-					bigbox.appendChild(span);
+					bigboxArr[0].appendChild(span);
 					if(newTotal == 1){
 						span.innerHTML = "我觉得很赞";
 					}else {
@@ -34,16 +45,24 @@ window.onload = function () {
 					}
 
 				}else {
-					bingopic.className = "i7";
+					// bingopicArr[0].className = "i7";
 					newTotal = oldTotal - 1;
-					bigbox.style.display = "none";
-					record.style.height =record.offsetHeight-40+"px";
+					bigboxArr[0].style.display = "none";
+					recordArr[0].style.height =(recordArr[0].offsetHeight-40)+"px";
 
 				}
 
-			}
-  }
 
+			}
+
+
+
+
+
+
+
+
+  }
 
 
 

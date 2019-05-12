@@ -53,7 +53,7 @@ table {
 body {
     font: 12px/150% Arial, Verdana, "\5b8b\4f53";	/*宋体，Unicode，统一码*/
     color: #666;
-    background: #fff
+    background: #fff;
 }
 
 .clearfix:before, .clearfix:after {
@@ -86,8 +86,14 @@ a,li {
     list-style: none;
 }
 
+a {
+    outline: none;
+    color:#c8bbaf;
+}
 body {
-    background: url(../images/bj.jpg);
+    background: url(../images/bj.jpg) no-repeat;
+    /*position: fixed;*/
+
 }
 
 .contain {
@@ -215,6 +221,9 @@ body {
 }
 .padding_left10 {
     padding-left: 10px;
+}
+.content_right .record a:hover {
+    text-decoration: underline;
 }
 
 .clearfix:after {

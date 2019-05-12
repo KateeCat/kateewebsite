@@ -9,6 +9,9 @@
 	position: relative;
 }
 
+
+
+
 .content_right .record-top {
 	width: 692px;
 	height: 125px;
@@ -135,7 +138,17 @@
 	background: url("../images/bingo.png") -56px -2px no-repeat;
 	cursor: pointer;
 }
-
+.content_right .i88  {
+	position: absolute;
+	display: inline-block;
+	left: 671px;
+	bottom: 16px;
+	width: 20px;
+	height: 20px;
+	/*background-color: red;*/
+	background: url("../images/bingo2.png") -56px -2px no-repeat;
+	cursor: pointer;
+}
 .content_right .record-top2 {
 	width: 692px;
 	height: 250px;
